@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <style>
+body{
+background-image:ulr(k9.jpg);
+background-size:cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500&display=swap');
+
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('k9.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 200%;
+    max-width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: left;
+    color: #333;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon {
+    position: fixed;
+    top: 40%;
+    left: 5px;
+    transform: translateY(-40%);
+    color: #333;
+}
+
+input {
+    width: calc(100% - 50px);
+    padding: 10px;
+    padding-left: 35px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7ab300;
+}
+.register {
+    margin: 15px 0 30px;
+    font-size: 0.9cm;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.register label a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register label a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+<body background-image="k9.jpg"></body>
+
+    <div class="container">
+        <div class="glass-panel">
+            <h2>Login</h2>
+            <form>
+                 <div class="input-container">
+                    <ion-icon name="person"></ion-icon>
+                    <input type="text" placeholder="Username" required>
+
+                </div>
+                <div class="input-container">
+                    <ion-icon name="eye-off"></ion-icon>
+
+                    <input type="password" placeholder="Password" required>
+                </div>
+          <button> <a href="AFRIN.html">login</a></button><br>
+<br>
+                don't have an account?
+                
+                <div class="forgot">
+                    <label for="">
+                        <input type="checkbox">remember me</me>
+                        <a href="#">forgot password</a>
+                    </label>
+                </div>
+                <button>
+<a href="file:///C:/Users/HP/OneDrive/Desktop/shinchan/AFRIN.html"></a>login</centre>
+                    <div class="register"></div>
+                        <label for="">
+                            <a href="#"><register</a>
+                        </label>
+                
+   
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+                            
+</body>
+</html>
